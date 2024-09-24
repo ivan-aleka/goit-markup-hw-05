@@ -474,6 +474,9 @@ cursor: pointer;
 .footer-logo-text {
   margin-right: 120px
 }
+.footer-container-social {
+  margin-right: 80px;
+}
 .footer-container-social-paragraf {
   font-weight: 500;
   font-size: 16px;
@@ -508,6 +511,54 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .fcsl-link-svg {
   fill: #f4f4fd;
 }
+.footer-subscribe-paragraf {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.footer-subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+.footer-subscribe-form-input {
+width: 264px;
+height: 40px;
+border: 1px solid #ffffff;
+background-color: transparent;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+padding-left: 16px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+color: #ffffff;
+}
+.footer-subscribe-form-input::placeholder {
+color #ffffff;
+}
+.footer-subscribe-button {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4D5AE5;
+  border: none;
+  border-radius: 4px;
+}
+.footer-subscribe-button-svg {
+  margin-left: 16px;
+}
 /* Modal */
 .backdrop {
   position: fixed;
@@ -521,10 +572,10 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   pointer-events: none;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.backdrop.is-open {
+/* .backdrop.is-open {
 opacity: 1;
   visibility: visible;
-  pointer-events: auto;
+  pointer-events: auto; */
 }
 .modal {
   position: absolute;
@@ -583,11 +634,11 @@ top: 112px;
 left: 24px;
 width: 360px;
 }
-.modform-lable-input {
+.modform-label-input {
 height: 58px;
 margin-bottom: 8px;
 }
-.modform-lable-name {
+.modform-label-name {
 display: block;
 font-weight: 400;
 font-size: 12px;

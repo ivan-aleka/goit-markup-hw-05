@@ -469,6 +469,25 @@
             </li>
           </ul>
         </div>
+        <div class="footer-subscribe">
+          <p class="footer-subscribe-paragraf">Subscribe</p>
+          <form class="footer-subscribe-form">
+            <label class="footer-subscribe-form-label">
+              <input
+                class="footer-subscribe-form-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="footer-subscribe-button" type="submit">
+              Subscribe
+              <svg class="footer-subscribe-button-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-Frame-3"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-open">
@@ -482,8 +501,8 @@
           Leave your contacts and we will call you back
         </p>
         <form class="modal-form">
-          <div class="modform-lable-input">
-            <lable class="modform-lable-name" for="username">Name</lable>
+          <div class="modform-label-input">
+            <label class="modform-label-name" for="username">Name</label>
             <div class="modform-svg-input">
               <svg class="modform-icon" width="18px" height="24px">
                 <use href="./images/icons.svg#icon-person-black"></use>
@@ -496,22 +515,17 @@
               />
             </div>
           </div>
-          <div class="modform-lable-input">
-            <lable class="modform-lable-name" for="phone">Phone</lable>
+          <div class="modform-label-input">
+            <label class="modform-label-name" for="phone">Phone</label>
             <div class="modform-svg-input">
               <svg class="modform-icon" width="18px" height="24px">
                 <use href="./images/icons.svg#icon-phone-black"></use>
               </svg>
-              <input
-                class="modform-input"
-                type="phone"
-                name="phone"
-                id="phone"
-              />
+              <input class="modform-input" type="tel" name="phone" id="phone" />
             </div>
           </div>
-          <div class="modform-lable-input">
-            <lable class="modform-lable-name" for="email">Email</lable>
+          <div class="modform-label-input">
+            <label class="modform-label-name" for="email">Email</label>
             <div class="modform-svg-input">
               <svg class="modform-icon" width="18px" height="24px">
                 <use href="./images/icons.svg#icon-email-black"></use>
@@ -524,8 +538,8 @@
               />
             </div>
           </div>
-          <div class="modform-lable-comment">
-            <lable class="modform-lable-name" for="comment">Comment</lable>
+          <div class="modform-label-comment">
+            <label class="modform-label-name" for="comment">Comment</label>
             <div class="modform-comment">
               <textarea
                 class=""
