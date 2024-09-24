@@ -471,5 +471,72 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button class="modal-button-close" type="button">
+          <svg class="modal-button-close-svg" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <p class="modal-paragraf">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="modal-form">
+          <div class="modform-lable-input">
+            <lable class="modform-lable-name" for="username">Name</lable>
+            <div class="modform-svg-input">
+              <svg class="modform-icon" width="18px" height="24px">
+                <use href="./images/icons.svg#icon-person-black"></use>
+              </svg>
+              <input
+                class="modform-input"
+                type="text"
+                name="username"
+                id="username"
+              />
+            </div>
+          </div>
+          <div class="modform-lable-input">
+            <lable class="modform-lable-name" for="phone">Phone</lable>
+            <div class="modform-svg-input">
+              <svg class="modform-icon" width="18px" height="24px">
+                <use href="./images/icons.svg#icon-phone-black"></use>
+              </svg>
+              <input
+                class="modform-input"
+                type="phone"
+                name="phone"
+                id="phone"
+              />
+            </div>
+          </div>
+          <div class="modform-lable-input">
+            <lable class="modform-lable-name" for="email">Email</lable>
+            <div class="modform-svg-input">
+              <svg class="modform-icon" width="18px" height="24px">
+                <use href="./images/icons.svg#icon-email-black"></use>
+              </svg>
+              <input
+                class="modform-input"
+                type="email"
+                name="email"
+                id="email"
+              />
+            </div>
+          </div>
+          <div class="modform-lable-comment">
+            <lable class="modform-lable-name" for="comment">Comment</lable>
+            <div class="modform-comment">
+              <textarea
+                class=""
+                name="comment"
+                id="comment"
+                placeholder="Text input"
+              ></textarea>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
