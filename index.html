@@ -539,16 +539,35 @@
             </div>
           </div>
           <div class="modform-label-comment">
-            <label class="modform-label-name" for="comment">Comment</label>
-            <div class="modform-comment">
-              <textarea
-                class=""
-                name="comment"
-                id="comment"
-                placeholder="Text input"
-              ></textarea>
-            </div>
+            <label class="modform-label-name" for="user-comment">Comment</label>
+            <textarea
+              class="modform-comment"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+            ></textarea>
           </div>
+          <div class="modform-checkbox">
+            <input
+              class="modform-checkbox-input"
+              type="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
+            />
+            <label class="modform-checkbox-label" for="user-privacy">
+              <span class="modform-checkbox-span"
+                ><svg class="modform-checkbox-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-Vector"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="modform-checkbox-label-link" href=""
+                >Privacy Policy</a
+              ></label
+            >
+          </div>
+          <button class="modal-button-send" type="submit">Send</button>
         </form>
       </div>
     </div>
