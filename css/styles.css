@@ -661,6 +661,12 @@ margin-bottom: 4px;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
+  background-color: transparent;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+..modform-input:focus {
+  border-color: #4D5AE5;
 }
 .modform-svg-input {
 position: relative;
